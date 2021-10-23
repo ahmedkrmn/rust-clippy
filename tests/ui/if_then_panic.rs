@@ -1,3 +1,4 @@
+// edition:2018
 // run-rustfix
 #![warn(clippy::if_then_panic)]
 

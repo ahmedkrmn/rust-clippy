@@ -1,3 +1,4 @@
+// edition:2015
 // run-rustfix
 // aux-build:wildcard_imports_helper.rs
 

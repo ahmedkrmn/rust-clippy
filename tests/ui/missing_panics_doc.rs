@@ -1,6 +1,6 @@
+//edition:2015
 #![warn(clippy::missing_panics_doc)]
 #![allow(clippy::option_map_unit_fn)]
-
 fn main() {}
 
 /// This needs to be documented

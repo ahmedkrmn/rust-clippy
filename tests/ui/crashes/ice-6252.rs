@@ -1,6 +1,6 @@
+//edition:2015
 // originally from glacier fixed/77919.rs
 // encountered errors resolving bounds after type-checking
-
 trait TypeVal<T> {
     const VAL: T;
 }

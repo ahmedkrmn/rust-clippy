@@ -1,9 +1,9 @@
+//edition:2015
 #![warn(clippy::missing_docs_in_private_items)]
 // When denying at the crate level, be sure to not get random warnings from the
 // injected intrinsics by the compiler.
 #![allow(dead_code)]
 #![feature(global_asm)]
-
 //! Some garbage docs for the crate here
 #![doc = "More garbage"]
 

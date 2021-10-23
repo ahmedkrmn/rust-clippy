@@ -1,3 +1,4 @@
+//edition:2015
 // https://github.com/rust-lang/rust-clippy/issues/3969
 // used to crash: error: internal compiler error:
 // src/librustc_traits/normalize_erasing_regions.rs:43: could not fully normalize `<i32 as
@@ -7,7 +8,6 @@
 // in type inference.
 #![feature(trivial_bounds)]
 #![allow(unused)]
-
 trait A {}
 
 impl A for i32 {}

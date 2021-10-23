@@ -1,10 +1,10 @@
+//edition:2015
 #![feature(exclusive_range_pattern)]
 #![allow(clippy::match_same_arms)]
 #![warn(clippy::match_wild_err_arm)]
 
 fn match_wild_err_arm() {
     let x: Result<i32, &str> = Ok(3);
-
     match x {
         Ok(3) => println!("ok"),
         Ok(_) => println!("ok"),

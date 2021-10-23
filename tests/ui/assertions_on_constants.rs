@@ -1,3 +1,4 @@
+//edition:2015
 #![allow(non_fmt_panics)]
 
 macro_rules! assert_const {
@@ -6,7 +7,6 @@ macro_rules! assert_const {
         debug_assert!($len < 0);
     };
 }
-
 fn main() {
     assert!(true);
     assert!(false);
